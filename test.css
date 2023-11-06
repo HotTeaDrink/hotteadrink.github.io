@@ -1,4 +1,4 @@
 p{ 
-  width: expression(document.vulnerable=true) !important; 
+  background-image: url(javascript:document.vulnerable=true;) !important;
   color: red !important; 
 }
