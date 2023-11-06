@@ -1,1 +1,4 @@
-BODY{no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(document.vulnerable=true) !important;}
+p{ 
+  width: expression(document.vulnerable=true) !important; 
+  color: red !important; 
+}
