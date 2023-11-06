@@ -1,3 +1,1 @@
-BODY {
-  background: url("javascript:prompt('Hello :D')") !important;
-}
+BODY{background:url("javascript:alert('XSS')")!important;}
