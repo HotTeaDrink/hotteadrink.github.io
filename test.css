@@ -1,4 +1,1 @@
-p{ 
-  background-image: url(javascript:document.vulnerable=true;) !important;
-  color: red !important; 
-}
+<style draggable="true" ondrag="alert(1)">test</style>
