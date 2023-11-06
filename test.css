@@ -1,1 +1,1 @@
-BODY{width:expression(alert('XSS')) !important;}
+BODY{no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(document.vulnerable=true) !important;}
