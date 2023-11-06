@@ -1,1 +1,3 @@
-<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+p {
+  background-color: red !important;
+}
