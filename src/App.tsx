@@ -402,8 +402,8 @@ function App() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-blue-600 mr-3" />
-                    <a href='mailto:dentaldesign69gmail.com'>
-                      <span>dentaldesign69gmail.com</span>
+                    <a href='mailto:dentaldesign69@gmail.com'>
+                      <span>dentaldesign69[at]gmail.com</span>
                     </a>
                   </div>
                   <div className="flex items-center">
