@@ -402,11 +402,15 @@ function App() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-blue-600 mr-3" />
-                    <span>dentaldesign69@gmail.com</span>
+                    <a href='mailto:dentaldesign69gmail.com'>
+                      <span>dentaldesign69gmail.com</span>
+                    </a>
                   </div>
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                    <span>+33 6 51 90 74 55</span>
+                    <a href='tel:0651907455'>
+                      <span>+33 6 51 90 74 55</span>
+                    </a>
                   </div>
                 </div>
               </div>
