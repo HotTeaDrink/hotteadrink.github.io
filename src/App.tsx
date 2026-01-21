@@ -207,12 +207,32 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Nos Tarifs</h2>
           <div className="max-w-5xl mx-auto">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <iframe
-                src={tarif_pdf}
-                className="w-full h-[600px] md:h-[800px]"
-                title="Tarifs DentalDesign"
-              />
+            <a href={tarif_pdf} target="_blank" rel="noopener noreferrer" className="block">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow">
+                <object
+                  data={tarif_pdf}
+                  type="application/pdf"
+                  className="w-full h-[600px] md:h-[800px] pointer-events-none"
+                >
+                  <div className="w-full h-[600px] md:h-[800px] flex items-center justify-center bg-gray-100">
+                    <div className="text-center p-8">
+                      <FileDown className="h-16 w-16 text-blue-600 mx-auto mb-4" />
+                      <p className="text-gray-700 text-lg mb-2">Aperçu des tarifs non disponible</p>
+                      <p className="text-gray-500">Cliquez pour ouvrir le PDF</p>
+                    </div>
+                  </div>
+                </object>
+              </div>
+            </a>
+            <div className="mt-6 text-center">
+              <a
+                href={tarif_pdf}
+                download="Tarifs_DentalDesign_2025-2026.pdf"
+                className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+              >
+                <FileDown className="h-5 w-5 mr-2" />
+                Télécharger les tarifs (PDF)
+              </a>
             </div>
           </div>
         </div>
